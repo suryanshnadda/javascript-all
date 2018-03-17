@@ -16,7 +16,7 @@
 
 <div class="container-fluid" id="top">
 <h2>JAVA SCRIPT</h2>
-<h3> alert prompt confirm</h3> 
+<h3> logical operators</h3> 
 </div>
 <div class="container">
 
@@ -31,26 +31,47 @@
 </div>
 <div class="card bg-light text-dark">
     <div class="card-body">in this section we are dealing with <Br>
+1) or || <br>
+2) and && <br>
+3) not  !
 
-1)alert
-<br>
-2)prompt<Br>
-3)confirm
-
-<br><Br>
-alert -shows a message<br>
-prompt -shows a message asking the user to input text.<br>
-confirm - shows a message and waits for the user to press “OK” or “CANCEL”.  ok means true and cancel means false
+</div>
+</div>
+<br><br>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">enter first number</label>
+    <input type="number" class="form-control" id="firstnum" aria-describedby="emailHelp" placeholder="enter number">
+	
+    <small id="numar" class="form-text text-muted">result will depend on your input</small>
   </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">enter second number</label>
+    <input type="number" class="form-control" id="secondnum" aria-describedby="emailHelp" placeholder="enter number">
+	
+    <small id="numar" class="form-text text-muted">result will depend on your input</small>
+  </div>
+  </div>
+  <div class="col-sm-6">
+
+
+</form>
+<button onclick="logi()" class="btn btn-primary">test the numbers, click here</button>
+<button onclick="andn()" class="btn btn-primary">check if both numbers are even or not</button>
 </div>
-
-
+<p id="one">
+</p>
+<div class="alert alert-primary alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong id="two">RESULT</strong> 
 </div>
 </div>
-
-
+</div>
 <script>
 
 </script>
-<script src="9alertprompt.js"></script>
+<script src="11logicaloperator.js"></script>
 </body></html>
